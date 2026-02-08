@@ -1,0 +1,283 @@
+{
+	"cards": [
+		{
+			"type": "Weapon",
+			"value": 2,
+			"symbol": "🔪",
+			"name": "Knife"
+		},
+		{
+			"type": "Weapon",
+			"value": 3,
+			"symbol": "🔥",
+			"name": "Torch"
+		},
+		{
+			"type": "Weapon",
+			"value": 4,
+			"symbol": "🗡 ",
+			"name": "Dagger"
+		},
+		{
+			"type": "Weapon",
+			"value": 5,
+			"symbol": "🔨",
+			"name": "Hammer"
+		},
+		{
+			"type": "Weapon",
+			"value": 6,
+			"symbol": "🪓",
+			"name": "Axe"
+		},
+		{
+			"type": "Weapon",
+			"value": 7,
+			"symbol": "🏹",
+			"name": "Bow"
+		},
+		{
+			"type": "Weapon",
+			"value": 8,
+			"symbol": "⚔️",
+			"name": "Two Swords"
+		},
+		{
+			"type": "Weapon",
+			"value": 9,
+			"symbol": "💣",
+			"name": "Bomb"
+		},
+		{
+			"type": "Weapon",
+			"value": 10,
+			"symbol": "🪄",
+			"name": "Magic Wand"
+		},
+		{
+			"type": "Potion",
+			"value": 2,
+			"symbol": "❤",
+			"name": "Spoiled heal"
+		},
+		{
+			"type": "Potion",
+			"value": 3,
+			"symbol": "❤",
+			"name": "Bargain heal"
+		},
+		{
+			"type": "Potion",
+			"value": 4,
+			"symbol": "❤",
+			"name": "Cheap heal"
+		},
+		{
+			"type": "Potion",
+			"value": 5,
+			"symbol": "❤",
+			"name": "Weak heal"
+		},
+		{
+			"type": "Potion",
+			"value": 6,
+			"symbol": "❤",
+			"name": "Standard heal"
+		},
+		{
+			"type": "Potion",
+			"value": 7,
+			"symbol": "❤",
+			"name": "Quality heal"
+		},
+		{
+			"type": "Potion",
+			"value": 8,
+			"symbol": "❤",
+			"name": "Fortified heal"
+		},
+		{
+			"type": "Potion",
+			"value": 9,
+			"symbol": "❤",
+			"name": "Expert heal"
+		},
+		{
+			"type": "Potion",
+			"value": 10,
+			"symbol": "❤",
+			"name": "Exclusive heal"
+		},
+		{
+			"type": "Monster",
+			"value": 2,
+			"symbol": "🕷️",
+			"name": "Spider"
+		},
+		{
+			"type": "Monster",
+			"value": 3,
+			"symbol": "🐀",
+			"name": "Rat"
+		},
+		{
+			"type": "Monster",
+			"value": 4,
+			"symbol": "👺",
+			"name": "Goblin"
+		},
+		{
+			"type": "Monster",
+			"value": 5,
+			"symbol": "💀",
+			"name": "Skeleton"
+		},
+		{
+			"type": "Monster",
+			"value": 6,
+			"symbol": "🧟",
+			"name": "Zombie"
+		},
+		{
+			"type": "Monster",
+			"value": 7,
+			"symbol": "👻",
+			"name": "Ghost"
+		},
+		{
+			"type": "Monster",
+			"value": 8,
+			"symbol": "👹",
+			"name": "Ogre"
+		},
+		{
+			"type": "Monster",
+			"value": 9,
+			"symbol": "🥷",
+			"name": "Ninja"
+		},
+		{
+			"type": "Monster",
+			"value": 10,
+			"symbol": "🧌",
+			"name": "Troll"
+		},
+		{
+			"type": "Monster",
+			"value": 11,
+			"symbol": "🧙",
+			"name": "Battlemage"
+		},
+		{
+			"type": "Monster",
+			"value": 12,
+			"symbol": "🧛",
+			"name": "Vampire"
+		},
+		{
+			"type": "Monster",
+			"value": 13,
+			"symbol": "🐲",
+			"name": "Dragon"
+		},
+		{
+			"type": "Monster",
+			"value": 14,
+			"symbol": "🦹",
+			"name": "Supervillain"
+		},
+		{
+			"type": "Monster",
+			"value": 2,
+			"symbol": "🕷️",
+			"name": "Spider"
+		},
+		{
+			"type": "Monster",
+			"value": 3,
+			"symbol": "🐀",
+			"name": "Rat"
+		},
+		{
+			"type": "Monster",
+			"value": 4,
+			"symbol": "👺",
+			"name": "Goblin"
+		},
+		{
+			"type": "Monster",
+			"value": 5,
+			"symbol": "💀",
+			"name": "Skeleton"
+		},
+		{
+			"type": "Monster",
+			"value": 6,
+			"symbol": "🧟",
+			"name": "Zombie"
+		},
+		{
+			"type": "Monster",
+			"value": 7,
+			"symbol": "👻",
+			"name": "Ghost"
+		},
+		{
+			"type": "Monster",
+			"value": 8,
+			"symbol": "👹",
+			"name": "Ogre"
+		},
+		{
+			"type": "Monster",
+			"value": 9,
+			"symbol": "🥷",
+			"name": "Ninja"
+		},
+		{
+			"type": "Monster",
+			"value": 10,
+			"symbol": "🧌",
+			"name": "Troll"
+		},
+		{
+			"type": "Monster",
+			"value": 11,
+			"symbol": "🧙",
+			"name": "Battlemage"
+		},
+		{
+			"type": "Monster",
+			"value": 12,
+			"symbol": "🧛",
+			"name": "Vampire"
+		},
+		{
+			"type": "Monster",
+			"value": 13,
+			"symbol": "🐲",
+			"name": "Dragon"
+		},
+		{
+			"type": "Monster",
+			"value": 14,
+			"symbol": "🦹",
+			"name": "Supervillain"
+		}
+	],
+	"rng_linear_a": 2416,
+	"rng_linear_c": 374441,
+	"rng_linear_m": 1771875,
+	"room_size": 4,
+	"player_state": {
+		"health": 20,
+		"weapon": {
+			"value": 0,
+			"name": "Bare hands",
+			"symbol": "👊",
+			"last_killed": 15
+		},
+		"ready_to_run": true,
+		"healed": false
+	}
+}
