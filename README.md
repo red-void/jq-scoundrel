@@ -4,7 +4,7 @@ Scoundrel is a single player rogue-like card game by Zach Gage and Kurt Bieg.
 
 [Original rules](http://stfj.net/art/2011/Scoundrel.pdf)
 
-Although this implementation strictly follows all these rules, it does not include any mentions of playing cards in the interface: I think this could break the immersion.
+Although this implementation strictly follows all these rules (besides scoring), it does not include any mentions of playing cards in the interface: I think this could break the immersion.
 
 # Implementation
 
