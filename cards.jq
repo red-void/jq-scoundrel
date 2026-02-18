@@ -15,5 +15,5 @@ def discard($deck; $index):
 # Sums values of all monsters from the 'deck'
 # Returns this sum.
 def monster_score($deck):
-	reduce $deck[] as $card (0; . + if $card.type == "Monster" then $card.value else 0 end);
+	reduce $deck[] as $card (0; . + (if $card.type == "Monster" then $card.value else 0 end));
 

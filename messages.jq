@@ -25,7 +25,7 @@ def get_weapon_info($weapon):
 def get_menu($dungeon; $room; $state; $room_size):
 	(reduce $room[] as $card ([0, ""]; [.[0] + 1, .[1] + (.[0] + 1 | tostring) + ". " + get_room_menu_item($card)])
 	| .[1]) as $room_objects
- 	| if ($state.ready_to_run and ($room | length) == $room_size and ($dungeon | length) > 0) then "\($room_size + 1). Run\n" else "" end as $run_option 
+	| (if ($state.ready_to_run and ($room | length) == $room_size and ($dungeon | length) > 0) then "\($room_size + 1). Run\n" else "" end) as $run_option
 	| "What do you want to do?\n" +
 	$room_objects +
 	$run_option +

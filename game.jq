@@ -109,14 +109,14 @@ def enter_the_room($dungeon; $room; $state; $room_size):
 # Game over handler
 def game_over($dungeon; $room; $state; $full_deck; $max_health):
 	cards::monster_score($full_deck) as $max_monster_score
-	| $max_monster_score - cards::monster_score($room) - cards::monster_score($dungeon) as $current_monster_score
+	| ($max_monster_score - cards::monster_score($room) - cards::monster_score($dungeon)) as $current_monster_score
 	| messages::game_over($current_monster_score + $state.health; $max_monster_score + $max_health)
 	| halt;
 
 # Game finished handler
 def win($dungeon; $state; $full_deck; $max_health):
-	cards::monster_score($full_deck) + $max_health as $max_score
-	| cards::monster_score($full_deck) + $state.health as $score
+	(cards::monster_score($full_deck) + $max_health) as $max_score
+	| (cards::monster_score($full_deck) + $state.health) as $score
 	| messages::win($score; $max_score)
 	| halt;
 

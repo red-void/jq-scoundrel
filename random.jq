@@ -8,8 +8,8 @@ def swap($index_1; $index_2; $array): [foreach $array[] as $item (-1; . + 1; (if
 # Returns kind of random number (from 0 to 'limit') based on current time. Let's say it's random enough for a single use :D
 def rng_seed($limit):
 	now as $x 
-	| $x - ($x | round) as $frac 
-	| if $frac > 0 then $frac * $limit else ($frac + 1) * $limit end
+	| ($x - ($x | round)) as $frac
+	| (if $frac > 0 then ($frac * $limit) else (($frac + 1) * $limit) end)
 	| round;
 
 # Linear congruential random number generator. 
